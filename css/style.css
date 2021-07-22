@@ -1,0 +1,65 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  color: var(--main-black);
+}
+:root {
+  --main-black: #222222;
+  --main-orange: #f33d01;
+  --light-dark: #86899b;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+.btn-orange {
+  background: var(--main-orange);
+  border-radius: 48px;
+}
+section {
+  padding: 100px 0;
+}
+p {
+  color: var(--light-dark);
+}
+/* Banner Section */
+.banner-section {
+  padding: 200px 0;
+  background-image: url(../images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-content {
+  max-width: 560px;
+}
+.banner-content h2 {
+  font-size: 40px;
+}
+.banner-content p {
+  font-size: 18px;
+}
+
+/* Testimonial Section */
+.testimonial-content {
+  max-width: 560px;
+}
+.testimonial-content h2 {
+  font-size: 29px;
+}
+.testimonial-content p {
+  font-size: 17px;
+}
